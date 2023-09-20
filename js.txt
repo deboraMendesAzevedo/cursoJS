@@ -1,0 +1,8 @@
+/*Mensagem na tela */
+    window.alert('oi')
+
+/*Mensagem na tela com pergunta com ok ou cancelar */
+    window.confirm('Está gostando?')
+
+/*Mensagem na tela com pergunta esperando uma resposta*/
+    window.prompt('qual o seu nome?')
