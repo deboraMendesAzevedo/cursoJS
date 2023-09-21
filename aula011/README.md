@@ -8,7 +8,7 @@
     true ou false
  }
 
- condição
+ condição composta
  if(condição){
     false ou true
  }else{
