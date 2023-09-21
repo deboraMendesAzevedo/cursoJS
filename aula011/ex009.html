@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de nacionalidade</title>
+
+</head>
+<body>
+    <h1>Sistema de nacionalidade</h1>
+
+    <label for="inacionalidade">Dirite a sua nacionalidade</label>
+    <input type="text" name="nacionalidade" id="inacionalidade" required>
+
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="iresposta">Resposta</div>
+
+    <script>
+        
+        var nacionalidade = window.document.querySelector('input#inacionalidade')
+        var resposta = window.document.querySelector('div#iresposta')
+
+        function verificar(){
+            resposta.innerHTML = (`A nacionalidade escolhida é : ${nacionalidade}`)
+            if(nacionalidade == 'Brasileiro') {
+                resposta.innerHTML += '<p>Você é brasileiro<p>'
+            }
+            //else{
+              //  resposta.innerHTML += ('Você é estrangeiro')
+           // }
+
+        }
+
+
+
+    </script>
+
+    
+</body>
+</html>
