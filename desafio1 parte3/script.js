@@ -20,8 +20,9 @@ function verificar(){
         if (sexo[0].checked){
             genero = 'Homem'
             if (idade >= 0 && idade >= 10){
+                //document.body.style.borderBlockColor = ''
                 // criança
-                window.alert('crianca')
+                //window.alert('crianca')
                 //img.setAttribute('src' , 'menino.jpg')
                 
 
