@@ -1,3 +1,7 @@
+
+
+
+
 function carregar(){
     var mensagem = window.document.getElementById('imensagem')
     var foto = window.document.getElementById('iimagem')
