@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do dia </h1>
+    </header>
+    <main>
+        <section>
+            <div id="imensagem">
+                Aqui vai aparecer a hora do dia 
+
+            </div>
+            <form action="iformulario">
+                <p>
+                    
+                    <label for="inascimento">Data de nascimento</label>
+                    <input type="number" name="nascimento" id="inascimento" min="0" required>
+                </p>
+
+                <p>
+                    
+                    <label for="isexo">Sexo : </label>
+                    <input type="radio" name="sexo" id="imasculino" >
+                    <label for="imasculino">Masculino</label>
+                    <input type="radio" name="sexo" id="ifeminino" checked>
+                    <label for="ifeminino">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+
+            </form>
+            <div id="iresposta">
+                Preencha os dados acima para ver o resultado! 
+
+            </div>
+
+            
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;Débora Mendes de Azevedo </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+    
+</body>
+</html>
