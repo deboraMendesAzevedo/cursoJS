@@ -1,15 +1,30 @@
+let num = document.querySelector('input#fnum')
+let lista = document.querySelector('select#flista')
+let res = document.querySelector('div#res')
+let valores = []
 
-var numero = document.getElementById('inumero')
-var resposta = document.getElementById('')
-
-
-function analisar(x){
-    var posicao = num.indexOf(x)
-    if(x <= 0 && x > 100 ){
-        return ('número invalido')
-
+function isNumero(n){
+    if(Number(n) >= 1 && Number(n) <=100){
+        return true
     }else{
-        var soma = 
+        return false
     }
-    
+}
+
+function inLista(n, l){
+    if (l.indexOf(Number(n)) != -1){
+        return true
+    }else {
+        return false
+    }
+
+}
+
+function adcionar(){
+   if(isNumero(num.value) && !inLista(num.value, valores)){
+    window.alert('ok')
+
+   }else{
+    window.alert('Valor inválido ou já está na lista ')
+   }
 }
