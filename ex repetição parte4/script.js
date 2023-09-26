@@ -8,6 +8,11 @@ var numero1 = Number(numero1.value)
 var numero2 = Number(numero2.value)
 var passo = Number(passo.value)
 
+
+
+
+
+/*
 if(numero1.value.length == 0 || numero2.value.length == 0 || passo.value.length == 0){
     window.alert('erro')
 }else{
@@ -17,6 +22,7 @@ if(numero1.value.length == 0 || numero2.value.length == 0 || passo.value.length 
             resultado.innerHTML += `${i}`
         }
 }
+*/
 
 /*
 function contar(){

@@ -13,7 +13,7 @@ body{
 }
 section{
     width: 50vw;
-    height: 50vh;
+    height: 50vh;https://www.youtube.com/watch?v=oMNbc_LFz8w
     background-color: white;
     margin: auto;
     padding: auto;
@@ -27,6 +27,7 @@ footer{
     text-align: center;
     font-style: italic;
 
+
 }
 div{
     margin: 5px;
@@ -37,7 +38,4 @@ img{
     height: 120px;
     width: 120px;
     border-radius:120px;
-}
-.teste{
-    background-color: white;
 }
